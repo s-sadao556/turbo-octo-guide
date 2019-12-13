@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+* {
+    text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family:
+		"メイリオ", Meiryo,
+		"ヒラギノ角ゴ Pro W3",
+		"HIragino Kaku Gothic Pro W3",
+		"HIragino Kaku Gothic Pro",
+		Osaka,
+		"ＭＳ Ｐゴシック", "MS P Gothic",
+		sans-serif;
+}
+
+
+.main-contents {
+    width: 70%;
+    background-image: url(image/skytree.jpeg);
+    background-size: cover;
+    height: 710px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    float: right;
+    display: block;
+    position: relative;
+}
+
+.month h1 {
+    color: white;
+    font-size: 78px;
+    float: right;
+    padding-top: 92px;
+    display: block;
+}
+
+.title img {
+    max-width: 30%;
+    height: auto;
+    z-index: 10;
+}
+
+.title h1 {
+    color: white;
+    font-size: 54px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 40px;
+}
+.title p {
+    color: white;
+    font-size: 24px;
+}
+
+.container {
+    padding: 0 40px;
+    display: inline-block;
+}
+
+.sub-contents {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 240px;
+    position: fixed;
+    display: inline-block;
+    height: 690px;
+
+}
+
+
+.sub-contents h2 {
+    margin-top: 180px;
+    padding-top: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 32px;
+    border-top: double 4px grey;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.sub-contents p {
+    display: inline-block;
+    border-bottom: double 4px grey;
+    font-family: 'Noto Serif JP', serif;
+    padding-bottom: 18px;
+}
+
+
+.nav {
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+	border-bottom: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888888;
+    list-style: none;
+    width: 30%;
+    position: fixed;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul li{
+    text-align: center;
+    padding: 0 8px;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+}
+
+
+ul li:hover {
+    background-color: #c0c0c0;
+    border-radius: 4px;
+    padding: 0 8px;
+    font-size: 15px;
+    color: #b22222;
+}
+
+.sns-list {
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    position: fixed;
+    height: 100%;
+    float: right;
+    right: 0;
+    top: 50%;
+    z-index: 20;
+    
+}
+
+.sns-list img {
+    width: 29px;
+    height: 29px;
+    color: black;
+}
+
+.footer-list {
+    width: 70%;
+    height: 500px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    padding-top: 230px;
+}
+.footer-list img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 20px;
+}
+
+.footer-list h2 {
+    border-bottom: double 4px grey;
+    font-size: 40px;
+    padding-bottom: 20px;
+    max-width: 380px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer-list p {
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-top: 20px;
+}
